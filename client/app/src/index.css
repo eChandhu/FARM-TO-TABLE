@@ -1,0 +1,33 @@
+/* Body styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Light background for a fresh look */
+  color: #212529; /* Dark text for contrast */
+  line-height: 1.6; /* Improved line height for readability */
+  padding: 20px; /* Padding around the body for breathing space */
+}
+
+/* Code styles */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #e9ecef; /* Light gray background for code blocks */
+  color: #333; /* Dark text for code readability */
+  padding: 4px 6px; /* Padding for code blocks */
+  border-radius: 4px; /* Rounded corners for code blocks */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+  font-size: 0.95em; /* Slightly smaller font size for code */
+  overflow-wrap: break-word; /* Break long words in code */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  body {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+}

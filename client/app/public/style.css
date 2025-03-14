@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the root div */
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}

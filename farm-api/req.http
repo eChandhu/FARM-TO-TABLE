@@ -1,0 +1,16 @@
+# Get all farms
+GET http://localhost:3000/farms
+
+###
+
+# Create a new farm
+POST http://localhost:3000/farms
+Content-Type: application/json
+
+{
+    "farm_id": "123",
+    "farm_name": "Green Valley Farms",
+    "location": "California, USA",
+    "farmer_contact": "+1-555-123456",
+    "crops": []
+}
